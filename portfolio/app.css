@@ -14,7 +14,6 @@
     --color-dark:#212121;
     --color-border:#7e686895;
     --color-bg:#171717;
-
 }
 body{
     background: var(--color-bg);
@@ -25,9 +24,7 @@ body{
     font-weight: 400;
     color: white;
     line-height: 30px;
-    margin: 1rem 0;
-    
-    
+    margin: 1rem 0;    
  }
 h2{
     font-size: 36px;
@@ -99,7 +96,6 @@ nav{
   display: flex;
 
 }
-
 ul {
     display: block;
     list-style-type: disc;
@@ -107,8 +103,7 @@ ul {
     margin-block-end: 1em;
     margin-inline-start: 950px;
     margin-inline-end:100px;
-    padding-inline-start: 40px;
-    
+    padding-inline-start: 40px;   
 }
 .logo h2{
     color: white;
@@ -138,11 +133,7 @@ span{
 header{
     margin-top: 190px;
     
-
-    
 }
-
-
 .header-container{
     display: grid;
     grid-template-columns: 548% 120%;
@@ -191,13 +182,8 @@ section>h1{
     font-style:normal;
     font-weight: 55px;
     text-align: center;
-    font-size: 25px;
-
-    
+    font-size: 25px;  
 }
-    
-    
-
 .about-content{
 margin-top: 600%;
 display: grid;
@@ -205,9 +191,6 @@ margin: 280px 18%;
 grid-template-columns: repeat(4,1fr);
 justify-content: center;
 align-items: center;
-
-
-
 }
 .about-article{
     display: flex;
@@ -222,10 +205,8 @@ align-items: center;
     width: 62px;
 }
 #Services{
-    padding-top: 8px;
-    
+    padding-top: 8px;    
 }
-
 .services-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -250,20 +231,9 @@ align-items: center;
 .services-article p{
     font-family:'Times New Roman', Times, serif;
 }
-
-
-
-
-
-
-
-
-
 #skills{
-    padding-top: -1px;
-    
+    padding-top: -1px;    
 }
-
 .skills-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -271,7 +241,6 @@ align-items: center;
     margin-top: 100px;
    justify-content: center;
    text-align: center;
-
 }
 .skill-article{
     background: var(--color-dark);
@@ -288,7 +257,6 @@ align-items: center;
     border-color: var(--color-primary);
     
 }
-
 #Blog .row{
     width: 80%;
     margin: auto;
@@ -332,8 +300,6 @@ align-items: center;
     background-color: #212121;
     border-radius: 19px;
 }
-
-
 #Contact{
     padding-top: 120px;
 }
@@ -390,7 +356,6 @@ form input:focus{
 .form-bottom textarea :focus{
 border-bottom: 1px solid blueviolet;
 }
-
 footer{
     margin-top:500px ;
     margin-bottom: 40px ;
